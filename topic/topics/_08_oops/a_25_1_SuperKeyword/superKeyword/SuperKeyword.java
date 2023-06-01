@@ -1,5 +1,5 @@
 //Access variable
-package topics._08_oops.a_25_1_SuperKeyword;
+package topics._08_oops.a_25_1_SuperKeyword.superKeyword;
 
 public class SuperKeyword {
 }

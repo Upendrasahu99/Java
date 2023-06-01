@@ -1,0 +1,3 @@
+super keyword use in for refer the parent class of subclass.
+we can access parent class members(method, variables, constructor etc.).
+We use super keyword in exception,object class subclass like equals, compareTo etc.

@@ -1,4 +1,6 @@
 throws -
+>method might be throw exception, we can declare multiple exception by this we don't need to handle the exception.
 
 >The throws keyword is used in a method signature to declare that the method might throw one or more types of exceptions.
+
 >It is used to specify the exceptions that can be thrown by a method but are not handled internally.
