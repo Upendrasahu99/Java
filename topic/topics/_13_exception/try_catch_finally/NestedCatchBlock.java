@@ -2,7 +2,7 @@
  * under catch block try and catch block
  */
 
-package topics._13_exception;
+package topics._13_exception.try_catch_finally;
 
 public class NestedCatchBlock {
     public static void main(String[] args) {

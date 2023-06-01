@@ -1,4 +1,4 @@
-package topics._13_exception;
+package topics._13_exception.try_catch_finally;
 
 import java.util.Scanner;
 

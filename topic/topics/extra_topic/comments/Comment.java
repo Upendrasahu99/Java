@@ -1,4 +1,4 @@
-package topics.extra_topic.a_15_comments;
+package topics.extra_topic.comments;
 //This is single line comment
 
 

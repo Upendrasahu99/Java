@@ -1,0 +1,5 @@
+Exception - An exception is an unexpected event or error that occurs during the execution of a program or a piece of code.
+
+
+
+throws - The throws keyword is used in a method signature to declare that the method might throw one or more types of exceptions.

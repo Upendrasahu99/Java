@@ -12,7 +12,7 @@
  * "lang" is package where different Exception store
  */
 
-package topics._13_exception;
+package topics._13_exception.try_catch_finally;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -2,7 +2,7 @@
  * NPEException (NullPointerException)
  * NullPointerException is predefined Exception
  */
-package topics._13_exception;
+package topics._13_exception.try_catch_finally;
 
 public class NPEException {
     public static void main(String[] args) {
