@@ -1,0 +1,5 @@
+Functional Interfaces:
+
+ => an Interface that contains exactly one abstract method is known as functional interface. It can have any number of default, static method but can contain only one abstract method.
+
+ => The @FunctionalInterface annotation is optional but highly recommended when declaring functional interfaces in Java.
