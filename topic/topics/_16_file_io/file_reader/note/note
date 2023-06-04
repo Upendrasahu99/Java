@@ -1,0 +1,5 @@
+FilReader
+
+Read data character character
+It give integer value, it read  character unicode value
+for output we need to type cast  in character

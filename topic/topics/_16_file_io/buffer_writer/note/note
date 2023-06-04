@@ -1,0 +1,6 @@
+BufferWriter:
+
+it has all the methods similar to FileWriter.
+No need for new line separator.
+NextLine() Writes line at a time
+it needs a writer object

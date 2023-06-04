@@ -1,0 +1,84 @@
+package org.example;
+
+public class Accelerator {
+    public int getSpeed(){
+        return 80;
+    }
+    public int getTime(){
+        return 5;
+    }
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+package org.example;
+import org.junit.Assert;
+import org.junit.Test;
+
+public class AcceleratorTest {
+    @Test
+    public void speedCheck(){
+        Accelerator accelerator = new Accelerator();
+       int speed = accelerator.getSpeed();
+//       int time = accelerator.getTime();
+        Assert.assertEquals(80, speed);
+    }
+    @Test
+    public void speedCheckFailCase(){
+        Accelerator accelerator = new Accelerator();
+        int speed = accelerator.getSpeed();
+        Assert.assertNotEquals(50,speed);
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+package org.example;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class TimeTest {
+    @Test
+    public void checkTime(){
+        Accelerator accelerator = new Accelerator();
+        int time = accelerator.getTime();
+        Assert.assertEquals(5,time);
+    }
+    @Test
+    public void checkTimeFailCase(){
+        Accelerator accelerator = new Accelerator();
+        int time = accelerator.getTime();
+        Assert.assertNotEquals(4,time);
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+package org.example;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+@RunWith(Suite.class)
+
+@Suite.SuiteClasses({AcceleratorTest.class, TimeTest.class})
+public class TestSuite {
+
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+package org.example;
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+
+public class TestRunner {
+    public static void main(String[] args) {
+        Result result = JUnitCore.runClasses(AcceleratorTest.class, TimeTest.class);
+        System.out.println(result.getFailures());
+        System.out.println(result.wasSuccessful());
+    }
+}
+

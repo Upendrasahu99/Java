@@ -6,7 +6,7 @@
  *
  */
 
-package topics._16_stream;
+package topics._15_stream;
 
 import java.util.Arrays;
 import java.util.List;

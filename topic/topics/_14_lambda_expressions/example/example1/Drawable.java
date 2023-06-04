@@ -13,8 +13,7 @@ class LambdaExpressionExample {
 
         // with lambda
         //(argument-list) -> {body}
-        Drawable d2 = () -> {System.out.println("Drawing " + width);
-        };
+        Drawable d2 = () -> {System.out.println("Drawing " + width);};
         d2.draw();
     }
 }

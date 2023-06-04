@@ -4,7 +4,7 @@
  * 'sum()' Terminal operations that produce a result or a side effect, They consume the elements of the stream and terminate the stream.
  * '->' is lambda Expression.
  */
-package topics._16_stream;
+package topics._15_stream;
 
 import java.util.Arrays;
 

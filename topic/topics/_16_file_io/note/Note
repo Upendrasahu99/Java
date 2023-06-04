@@ -1,0 +1,18 @@
+Java File I/O :(Input/Output)
+
+=> Java file IO allow use to interact with File on local file or even on remote systems via network protocols.
+=> It provides class and method to read from file, access data from file and manipulate the file content.
+
+--------------------------------------------------------------------------------------------------------------------
+
+File: Represents a file or directory path and provides methods for checking file properties, creating new files or directories, and deleting files.
+
+FileInputStream and FileOutputStream: These classes are used for reading data from and writing data to files, respectively, in a byte-oriented manner.
+
+BufferedReader and BufferedWriter: These classes provide buffered reading and writing capabilities, which can improve performance when dealing with larger amounts of data.
+
+Scanner: This class allows you to read formatted data from various input sources, including files. It provides convenient methods for parsing different data types.
+
+ObjectInputStream and ObjectOutputStream: These classes enable reading and writing Java objects to and from files. They support object serialization, which allows objects to be converted into a byte stream for storage or transmission.
+
+FileWriter is a class in Java that allows you to write character data to a file. It provides a simple and convenient way to create or overwrite a file and write text or character data to it.

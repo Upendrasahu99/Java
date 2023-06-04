@@ -1,0 +1,16 @@
+JUnit : (Unit testing)
+
+=> JUnit is use for test the java code which we write in the class
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Suit :
+
+=> A suit collection or group of test cases which we can execute together as single unit.
+=> We required to go particular class and run the execute every test.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Runner :
+
+=> Runner provides the necessary infrastructure to run tests and collect their test execution result.
